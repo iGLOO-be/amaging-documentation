@@ -1,9 +1,11 @@
 # Filters
 
-| Filter | Description |
+
+
+| **Name** | Desc |
 | :--- | :--- |
-| **background\(color\)** | **`color`** in hexadecimal notation Set the background color of your image |
 | **blur\(radius, sigma\)** | **`radius`** and **`sigma`** are numbers Blur the image with a Gaussian operator |
+| **background\(color\)** | **`color`** in hexadecimal notation Set the background color of your image |
 
 
 

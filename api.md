@@ -11,7 +11,7 @@
 
 ## Action
 
-#### Retrieve
+### Retrieve
 
 {% tabs %}
 {% tab title="Method" %}
@@ -25,14 +25,9 @@ Headers: {
 }
 ```
 {% endtab %}
-
-{% tab title="Response" %}
-
-{% endtab %}
 {% endtabs %}
 
-
-#### Modify
+### Modify
 
 {% tabs %}
 {% tab title="Method" %}
@@ -48,14 +43,9 @@ Headers: {
    }
 ```
 {% endtab %}
-
-{% tab title="Response" %}
-
-{% endtab %}
 {% endtabs %}
 
-
-#### Delete
+### Delete
 
 {% tabs %}
 {% tab title="Method" %}
@@ -69,13 +59,5 @@ Headers: {
      }
 ```
 {% endtab %}
-
-{% tab title="Response" %}
-
-{% endtab %}
 {% endtabs %}
-
-
-
-
 
