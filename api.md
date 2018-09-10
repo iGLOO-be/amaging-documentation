@@ -32,6 +32,50 @@ Headers: {
 {% endtabs %}
 
 
+#### Modify
+
+{% tabs %}
+{% tab title="Method" %}
+`GET` [`https://customer_id.amaging.net/scope_id/presentation.pdf`](https://customer_id.amaging.net/scope_id/presentation.pdf)\`\`
+{% endtab %}
+
+{% tab title="Headers" %}
+```javascript
+Headers: {
+     Content-Type: mime type of file,
+     Content-Length: size of the file,
+     Authorization: Bearer + JWT_TOKEN // reference to authentification
+   }
+```
+{% endtab %}
+
+{% tab title="Response" %}
+
+{% endtab %}
+{% endtabs %}
+
+
+#### Delete
+
+{% tabs %}
+{% tab title="Method" %}
+`GET` [`https://customer_id.amaging.net/scope_id/presentation.pdf`](https://customer_id.amaging.net/scope_id/presentation.pdf)\`\`
+{% endtab %}
+
+{% tab title="Headers" %}
+```javascript
+ Headers: {
+       Authorization: Bearer + JWT_TOKEN // reference to authentification
+     }
+```
+{% endtab %}
+
+{% tab title="Response" %}
+
+{% endtab %}
+{% endtabs %}
+
+
 
 
 
