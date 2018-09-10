@@ -1,7 +1,3 @@
----
-description: How to use the API ?
----
-
 # API
 
 ## Representation

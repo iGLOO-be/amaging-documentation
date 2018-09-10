@@ -1,7 +1,3 @@
----
-description: How to install & configure Amaging
----
-
 # Setup
 
 ## Client

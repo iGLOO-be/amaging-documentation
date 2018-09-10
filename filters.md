@@ -1,7 +1,3 @@
----
-description: Here you can find the documentation about the filters and their purposes
----
-
 # Filters
 
 | Filter | Description |
