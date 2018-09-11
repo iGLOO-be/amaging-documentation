@@ -15,7 +15,7 @@
 
 {% tabs %}
 {% tab title="Method" %}
-`GET` [`https://customer_id.amaging.net/scope_id/presentation.pdf`](https://customer_id.amaging.net/scope_id/presentation.pdf)\`\`
+`GET` [`https://customer_id.amaging.net/scope_id/presentation.pdf`](https://customer_id.amaging.net/scope_id/presentation.pdf)
 {% endtab %}
 
 {% tab title="Headers" %}
@@ -31,16 +31,16 @@ Headers: {
 
 {% tabs %}
 {% tab title="Method" %}
-`GET` [`https://customer_id.amaging.net/scope_id/presentation.pdf`](https://customer_id.amaging.net/scope_id/presentation.pdf)\`\`
+`GET` [`https://customer_id.amaging.net/scope_id/presentation.pdf`](https://customer_id.amaging.net/scope_id/presentation.pdf)
 {% endtab %}
 
 {% tab title="Headers" %}
 ```javascript
 Headers: {
-     Content-Type: mime type of file,
-     Content-Length: size of the file,
-     Authorization: Bearer + JWT_TOKEN // reference to authentification
-   }
+    Content-Type: mime type of file,
+    Content-Length: size of the file,
+    Authorization: Bearer + JWT_TOKEN // reference to authentification
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -54,9 +54,9 @@ Headers: {
 
 {% tab title="Headers" %}
 ```javascript
- Headers: {
-       Authorization: Bearer + JWT_TOKEN // reference to authentification
-     }
+Headers: {
+    Authorization: Bearer + JWT_TOKEN // reference to authentification
+}
 ```
 {% endtab %}
 {% endtabs %}
