@@ -14,10 +14,10 @@ const client = AmagingClient.createClient({
 
 | Options |  |
 | :--- | :--- |
-| host | sqd qd qsd  |
-| cid | qsdsqdqsd |
-| access |  |
-| token |  |
+| **host** | sqd qd qsd  |
+| **cid** | qsdsqdqsd |
+| **access** |  |
+| **token** |  |
 
 {% hint style="info" %}
 Token used for authentification
@@ -62,7 +62,7 @@ Instance of a file returned by the client when a file has been chosen.
     path: "/PuppyKitten/11/1.jpg"
     remotePath: "https://staging.amaging.net/main/PuppyKitten/11/1.jpg"
     represent () {}
-
+}
 ```
 
 | Key |  |

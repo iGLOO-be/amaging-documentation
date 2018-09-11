@@ -6,8 +6,8 @@
 
 | param |  |
 | :--- | :--- |
-| customer\_id | sqdqsdsqd |
-| scope\_id | sqdsqdsqd |
+| **customer\_id** | sqdqsdsqd |
+| **scope\_id** | sqdsqdsqd |
 
 ## Action
 
@@ -49,7 +49,7 @@ Headers: {
 
 {% tabs %}
 {% tab title="Method" %}
-`GET` [`https://customer_id.amaging.net/scope_id/presentation.pdf`](https://customer_id.amaging.net/scope_id/presentation.pdf)\`\`
+`GET` [`https://customer_id.amaging.net/scope_id/presentation.pdf`](https://customer_id.amaging.net/scope_id/presentation.pdf)
 {% endtab %}
 
 {% tab title="Headers" %}

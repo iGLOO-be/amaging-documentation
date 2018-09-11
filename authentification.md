@@ -19,8 +19,8 @@ Via JSON Web Token that must contain
 
 | Key |  |
 | :--- | :--- |
-| accessKey | sqdqd |
-| Conditions | qsdqsd |
+| **accessKey** | sqdqd |
+| **Conditions** | qsdqsd |
 
 ## Generate Token
 
