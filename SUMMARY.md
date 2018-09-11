@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Super powerfull image](README.md)
+* [A powerfull & simple image processing API](README.md)
 * [Amaging](setup.md)
 * [Setup](setup-2.md)
 * [API](api.md)

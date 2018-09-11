@@ -1,4 +1,4 @@
-# Super powerfull image
+# A powerfull & simple image processing API
 
 ## General Purpose
 
