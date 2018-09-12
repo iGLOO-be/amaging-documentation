@@ -1,0 +1,77 @@
+
+
+- Homepage
+
+- Amaging
+
+An Amaging ressource is identified by a well-known URL pattern:
+```
+https://[DOMAIN].amaging.net/[CID]/some/path/to/a/file.png
+```
+
+The Amaging team will provide theses informations:
+
+|------------------|------------------|
+| DOMAIN           | Every customer has a personnal domain name to access amaging.
+| CID              | Every instance of amaging can use multiple CID's. By default, the first CID is named `main`
+| accessKey        | Public access key that will be used in integrations with various Amaging services |
+| secretKey        | Secret key (keep it safe!) that will be used in integrations with various Amaging services |
+|------------------|-------------------|
+
+- Authentication
+
+  JWT
+  algorithm: HS256
+
+  Le minimum c'est:
+  ```
+  {
+    accessKey: [ACCESS_KEY]
+  }
+
+
+  Il y a moyen de limiter la portée du token en ajoutant des conditions:
+
+  ```
+    {
+      accessKey: ACCESS_KEY,
+      data: [
+        ['eq', 'key', value] // reference to Conditions
+      ]
+    }
+  ```
+
+  Conditions:
+
+    TODO
+
+
+- Setup ===> Platform
+  * Home:
+    Présentation des différents services de la Platform
+
+  * Instanciate client
+
+    ```
+      const client = AmagingClient.createClient({
+        host: '',
+        cid: '',
+        token: [JWT]
+      })
+    ```
+
+    JWT ===> link to Authentication
+
+  * Finder dialog
+    `showFinderDialog()` ==> go to "FIle instance"
+
+  * File instance
+
+- API
+
+  * Authentication
+
+    Usage de l'header `Authentication` avec comme valeur `Bearer [JWT]`
+
+- Image processing
+  * Filters
