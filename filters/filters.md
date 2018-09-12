@@ -1,6 +1,7 @@
 # Filters
 
-| **Name** | Desc |
+## List
+| **Name** | **Desc** |
 | :--- | :--- |
 | **blur** | **`radius`** and **`sigma`** are numbers Blur the image with a Gaussian operator |
 | **background** | **`color`** in hexadecimal notation Set the background color of your image |
@@ -16,6 +17,16 @@
 | **quality**  | **`value`** is 0 \(lowest image quality and highest compression\) to 100 \(best quality but least effective compression\). For the JPEG image formats, the default quality is 75. |
 | **widthxheight** | Resize an image with width and height you provide.**Pay attention to the `x` delimiter between width and height.** |
 | **sepia** | Give a sepia effect to your image |
+
+## Use-case
+
+If you want a simple resize of your image :
+
+`https://[domain].amaging.net/[cid]/150x150&/image.jpg`
+
+If you want to flip and add borders to your image :
+
+`https://[domain].amaging.net/[cid]/flip&border(10,10)&/image.jpg`
 
 
 

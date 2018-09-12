@@ -1,6 +1,6 @@
 # Image processing
 
-Amaging allows you to modify your images through a long list of filters. They will be explained later with examples. Pretty easy to use, you just have to add filters in the URL to get the changes back to you. In the case you want to add differents filters to image, you have to use the'&' as delimiter at each end of the filter's name. 
+Amaging allows you to modify your images through a long [list of filters](./filters.md). They will be explained later with examples. Pretty easy to use, you just have to add filters in the URL to get the changes back to you. In the case you want to add differents filters to image, you have to use the'&' as delimiter at each end of the filter's name.
 
 {% hint style="warning" %}
 The filters are always located between the **scope\_id** and the **resource\_name** and should always end with an **&**.
@@ -17,10 +17,10 @@ The filters are always located between the **scope\_id** and the **resource\_nam
 
 ## URL components
 
-Here is how the syntax of the URL :
+Here is how the syntax of the URL works :
 
-```markup
-https://customer_id.amaging.net/scope_id/filter_1&filter_2&.../your_image.jpg
+```
+https://[domain].amaging.net/[cid]/filter_1&filter_2&.../your_image.jpg
 ```
 
 {% hint style="info" %}

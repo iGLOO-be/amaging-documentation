@@ -3,15 +3,21 @@
 Any Amaging resources is identified by a well-known URL pattern:
 
 ```text
-https://[DOMAIN].amaging.net/[CID]/some/path/to/a/file.png
+https://[domain].amaging.net/[cid]/[key]
 ```
 
 The Amaging team will provide these informations:
 
-| **Informations** | Description |
+| **Informations** | **Description** |
 | :--- | :--- |
-| **DOMAIN** | Every customer has a personnal domain name to access amaging. |
-| **CID** | Every instance of amaging can use multiple CID's. By default, the first CID is named `main` |
-| **accessKey** | Public access key that will be used in integrations with various Amaging services |
-| **secretKey** | Secret key \(keep it safe!\) that will be used in integrations with various Amaging services |
+| **domain** | Every customer has a personnal domain name to access amaging. |
+| **cid** | Every instance of amaging can use multiple cid's. By default, the first cid is named `main`. |
+| **key** | The key is the path representing a resource in Amaging |
+| **accessKey** | Public access key that will be used in integrations with various Amaging services. |
+| **secretKey** | Secret key \(keep it safe!\) that will be used in integrations with various Amaging services. |
 
+Here a sample of Amaging resource URI:
+
+```
+https://staging.amaging.net/main/some/path/to/a/resource.jpg
+```
