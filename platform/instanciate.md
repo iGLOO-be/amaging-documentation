@@ -1,9 +1,10 @@
-# Instanciate client
+# Instanciate Client
 
 With the Amaging Client comes a `createClient()` method, taking an object in params containing :
-  * `host <String>` Correspond to the host part of the url.
-  * `cid <String>` CID provided by the amaging team.
-  * `token <String>` Token used for [authentication](../authentication.md).
+
+* `host <String>` Correspond to the host part of the url.
+* `cid <String>` CID provided by the amaging team.
+* `token <String>` Token used for [authentication](../authentication.md).
 
 ```javascript
 const client = AmagingClient.createClient({
@@ -19,8 +20,8 @@ See [Authentication](../authentication.md) for further explanation about the `to
 
 An instance of a Client has two properties:
 
-  | Property  |   |
-  | :-- | :-- |
-  | `amagingOptions` | Containing all the options usefull to all the services : `host`, `cid`, `accessKey`, `secret`, `token` |
-  | [`showFinderDialog()`](./finder_dialog.md) |  method to start the Finder Dialog with optional configuration params. |
+| Property |  |
+| :--- | :--- |
+| `amagingOptions` | Containing all the options usefull to all the services : `host`, `cid`, `accessKey`, `secret`, `token` |
+| [`showFinderDialog()`](finder_dialog.md) | method to start the Finder Dialog with optional configuration params. |
 

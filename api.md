@@ -2,7 +2,7 @@
 
 ## Authentication
 
-Except for [retrieving]() one specific resource, authentication is mandatory to make any call to the API. For that, set the Headers `Authorization` of the request with a concatenation of `Bearer ` and the [`token`](./authentication.md) you have generated.
+Except for [retrieving](api.md) one specific resource, authentication is mandatory to make any call to the API. For that, set the Headers `Authorization` of the request with a concatenation of `Bearer` and the [`token`](authentication.md) you have generated.
 
 ```javascript
 Headers: {
@@ -15,8 +15,8 @@ Headers: {
 ### Retrieve
 
 {% tabs %}
-{% tab title="Method" %}
-`GET` `https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg`](https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg)\`\`
+{% tab title="GET" %}
+`https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg`
 {% endtab %}
 
 {% tab title="Headers" %}
@@ -31,8 +31,8 @@ Headers: {
 ### List
 
 {% tabs %}
-{% tab title="Method" %}
-`GET` [`https://[DOMAIN].amaging.net/[CID]/Some/Path/`](https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg)\`\`
+{% tab title="GET" %}
+ `https://[DOMAIN].amaging.net/[CID]/Some/Path/`
 {% endtab %}
 
 {% tab title="Headers" %}
@@ -56,8 +56,8 @@ Headers: {
 ### Modify / add a file
 
 {% tabs %}
-{% tab title="Method" %}
-`POST/PUT` [`https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg`](https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg)\`\`
+{% tab title="POST/PUT " %}
+`https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg`
 {% endtab %}
 
 {% tab title="Headers" %}
@@ -74,8 +74,8 @@ Headers: {
 ### Add a folder
 
 {% tabs %}
-{% tab title="Method" %}
-`POST/PUT` [`https://[DOMAIN].amaging.net/[CID]/Some/Path/to/newFolder/`](https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg)\`\`
+{% tab title="POST/PUT" %}
+`https://[DOMAIN].amaging.net/[CID]/Some/Path/to/newFolder/`
 {% endtab %}
 
 {% tab title="Headers" %}
@@ -100,8 +100,8 @@ Headers: {
 ### Delete
 
 {% tabs %}
-{% tab title="Method" %}
-`DELETE` [`https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg`](https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg)\`\`
+{% tab title="DELETE" %}
+`https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg`
 {% endtab %}
 
 {% tab title="Headers" %}
@@ -120,4 +120,6 @@ Headers: {
 ```
 {% endtab %}
 {% endtabs %}
+
+
 

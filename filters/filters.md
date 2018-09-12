@@ -1,9 +1,3 @@
----
-description: >-
-  Adding these parameters to your image URLs can enhance, resize, images or
-  compress i.e.
----
-
 # Filters
 
 | **Name** | Desc |

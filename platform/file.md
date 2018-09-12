@@ -2,26 +2,23 @@
 
 In Amaging, an instance of a file returned by the Dialog is composed by :
 
-  | key |       |
-  | :--- | :--- |
-  | `ContentLength`| The file content-length. |
-  | `ContentType`| The file mime type. |
-  | `ETag`| The file ETag. |
-  | `LastModified`| Timestampt of the last time the file was modified. |
-  | `isDirectory`| Is the file a direcotry or not.  |
-  | `basename`| File name. |
-  | `path`| Relative path, relative to the `[CID]` folder. |
-  | `remotePath`| Absolute public path of the file |
-  | `represent() {}`| a method returning the url representation of the file |
+| key | description |
+| :--- | :--- |
+| `ContentLength` | The file content-length. |
+| `ContentType` | The file mime type. |
+| `ETag` | The file ETag. |
+| `LastModified` | Timestampt of the last time the file was modified. |
+| `isDirectory` | Is the file a direcotry or not. |
+| `basename` | File name. |
+| `path` | Relative path, relative to the `[CID]` folder. |
+| `remotePath` | Absolute public path of the file |
+| `represent() {}` | a method returning the url representation of the file |
 
-  {% hint style="info" %}
-    `options()`: it's possible to chain represent with `option` method to add an array of Amaging [Filter](../filters/filters.md) to the url of the file.
-  {% endhint %}
-
-
+{% hint style="info" %}
+`options()`it's possible to chain represent with `option` method to add an array of Amaging [Filter](../filters/filters.md) to the url of the file.
+{% endhint %}
 
 ```javascript
-
 const file = {
     ContentLength: 206398
     ContentType: "application/octet-stream"
@@ -37,6 +34,5 @@ const file = {
 
 file.represent().options('1000', 'blur(100,20)').toString()
 // https://[DOMAIN].amaging.net/[CID]/100&blur(100,20)&/Some/Path/to/some_file.jpg
-
-
 ```
+
