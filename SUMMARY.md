@@ -1,9 +1,11 @@
-# Table of contents
-
+# [Table of contents](null)
 * [A powerfull & simple image processing API](README.md)
-* [Setup](setup-2.md)
+* [Amaging](amaging.md)
+* [Authentication](authentication.md)
+* [Platform](platform/README.md)
+  * [Instanciate Client](platform/instanciate.md)
+  * [Finder Dialog](platform/finder_dialog.md)
+  * [File](platform/file.md)
 * [API](api.md)
-* [Authentification](authentification.md)
 * [Image processing](filters/README.md)
   * [Filters](filters/filters.md)
-
