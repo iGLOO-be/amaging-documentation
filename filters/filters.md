@@ -22,11 +22,11 @@
 
 If you want a simple resize of your image :
 
-`https://[DOMAIN].amaging.net/[CID]/150x150&/image.jpg`
+`https://[domain].amaging.net/[cid]/150x150&/image.jpg`
 
 If you want to flip and add borders to your image :
 
-`https://[DOMAIN].amaging.net/[CID]/flip&border(10,10)&/image.jpg`
+`https://[domain].amaging.net/[cid]/flip&border(10,10)&/image.jpg`
 
 
 

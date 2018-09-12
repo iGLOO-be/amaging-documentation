@@ -16,7 +16,7 @@ Headers: {
 
 {% tabs %}
 {% tab title="GET" %}
-`https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg`
+`https://[domain].amaging.net/[cid]/Some/Path/to/some_file.jpg`
 {% endtab %}
 
 {% tab title="Headers" %}
@@ -32,7 +32,7 @@ Headers: {
 
 {% tabs %}
 {% tab title="GET" %}
- `https://[DOMAIN].amaging.net/[CID]/Some/Path/`
+ `https://[domain].amaging.net/[cid]/Some/Path/`
 {% endtab %}
 
 {% tab title="Headers" %}
@@ -57,7 +57,7 @@ Headers: {
 
 {% tabs %}
 {% tab title="POST/PUT " %}
-`https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg`
+`https://[domain].amaging.net/[cid]/Some/Path/to/some_file.jpg`
 {% endtab %}
 
 {% tab title="Headers" %}
@@ -75,7 +75,7 @@ Headers: {
 
 {% tabs %}
 {% tab title="POST/PUT" %}
-`https://[DOMAIN].amaging.net/[CID]/Some/Path/to/newFolder/`
+`https://[domain].amaging.net/[cid]/Some/Path/to/newFolder/`
 {% endtab %}
 
 {% tab title="Headers" %}
@@ -101,7 +101,7 @@ Headers: {
 
 {% tabs %}
 {% tab title="DELETE" %}
-`https://[DOMAIN].amaging.net/[CID]/Some/Path/to/some_file.jpg`
+`https://[domain].amaging.net/[cid]/Some/Path/to/some_file.jpg`
 {% endtab %}
 
 {% tab title="Headers" %}

@@ -19,8 +19,8 @@ The filters are always located between the **scope\_id** and the **resource\_nam
 
 Here is how the syntax of the URL works :
 
-```json
-https://[DOMAIN].amaging.net/[CID]/filter_1&filter_2&.../your_image.jpg
+```
+https://[domain].amaging.net/[cid]/filter_1&filter_2&.../your_image.jpg
 ```
 
 {% hint style="info" %}
