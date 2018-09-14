@@ -2,9 +2,16 @@
 
 ## Install
 
-`https://platform.amaging.net/client/client.js`
+`https://platform.amaging.net/v[version]/client/client.js`
 
-Once script tag has been added it expose a global object `AmagingClient`
+
+Version correspond to the `major version` of the Amaging Client you want to use.
+
+For the latest version use :
+
+**`https://platform.amaging.net/v1/client/client.js`**
+
+Once script tag has been added it expose a global object `AmagingClient`.
 
 ## Instanciate
 
