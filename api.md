@@ -32,7 +32,7 @@ Headers: {
 
 {% tabs %}
 {% tab title="GET" %}
- `https://[domain].amaging.net/[cid]/Some/Path/`
+`https://[domain].amaging.net/[cid]/Some/Path/`
 {% endtab %}
 
 {% tab title="Headers" %}
@@ -120,6 +120,4 @@ Headers: {
 ```
 {% endtab %}
 {% endtabs %}
-
-
 

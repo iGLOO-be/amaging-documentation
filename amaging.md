@@ -18,6 +18,7 @@ The Amaging team will provide these informations:
 
 Here a sample of Amaging resource URI:
 
-```
+```text
 https://staging.amaging.net/main/some/path/to/a/resource.jpg
 ```
+
