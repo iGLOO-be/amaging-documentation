@@ -63,10 +63,10 @@ Headers: {
 {% tab title="Headers" %}
 ```javascript
 Headers: {
-     Content-Type: 'mime type of file',
-     Content-Length: 'size of the file',
-     Authorization: 'Bearer + [JWT_TOKEN]'
-   }
+  Content-Type: 'mime type of file',
+  Content-Length: 'size of the file',
+  Authorization: 'Bearer + [JWT_TOKEN]'
+}
 ```
 {% endtab %}
 {% endtabs %}
@@ -81,9 +81,8 @@ Headers: {
 {% tab title="Headers" %}
 ```javascript
 Headers: {
-    Content-Length: '0',
-    Authorization: Bearer + JWT_TOKEN
-   }
+  Authorization: Bearer + JWT_TOKEN
+}
 ```
 {% endtab %}
 
@@ -106,9 +105,9 @@ Headers: {
 
 {% tab title="Headers" %}
 ```javascript
- Headers: {
-       Authorization: Bearer + JWT_TOKEN
-     }
+Headers: {
+  Authorization: Bearer + JWT_TOKEN
+}
 ```
 {% endtab %}
 

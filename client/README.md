@@ -8,9 +8,9 @@ Once script tag has been added it expose a global object `AmagingClient`.
 
 ## Code sample
 
-Here is a sample of usage of `AmagingClient`: https://codesandbox.io/s/210z59319j
+Here is a sample of usage of `AmagingClient`: [https://codesandbox.io/s/210z59319j](https://codesandbox.io/s/210z59319j)
 
-## Instanciate
+## Instantiate
 
 With the Amaging Client comes a `AmagingClient.createClient()` method, taking an object in params containing :
 
