@@ -32,7 +32,7 @@ const file = {
 
 ...
 
-file.represent().options('1000', 'blur(100,20)').toString()
+file.represent().options('100', 'blur(100,20)').toString()
 // https://[domain].amaging.net/[cid]/100&blur(100,20)&/Some/Path/to/some_file.jpg
 ```
 
